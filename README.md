@@ -26,8 +26,10 @@
 ┃ ┣ 📂 java \
 ┃ ┃ ┗ 📂 ma/enset/app_chat \
 ┃ ┃ ┣ ChatClient.java\
+┃ ┃ ┣ ChatClientFX.java\
 ┃ ┃ ┣ ChatServer.java\
 ┃ ┃ ┣ ChatClientController.java\
+┃ ┃ ┣ ChatClientController_1.java\
 ┃ ┣ 📂 resources \
 ┃ ┃ ┗ 📂 ma/enset/app_chat \
 ┃ ┃ ┣ chat_client.fxml\

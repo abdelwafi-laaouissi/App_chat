@@ -1,0 +1,20 @@
+.message-container {
+    -fx-padding: 5px;
+    -fx-spacing: 5px;
+}
+
+.sent-message {
+    -fx-background-color: #4CAF50;  /* Vert pour les messages envoyés */
+    -fx-text-fill: white;
+    -fx-padding: 5px;
+    -fx-background-radius: 10px;
+    -fx-alignment: center-right;
+}
+
+.received-message {
+    -fx-background-color: #f1f1f1; /* Gris pour les messages reçus */
+    -fx-text-fill: black;
+    -fx-padding: 5px;
+    -fx-background-radius: 10px;
+    -fx-alignment: center-left;
+}

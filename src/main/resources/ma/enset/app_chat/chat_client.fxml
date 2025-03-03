@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ma.enset.app_chat.ChatClientController_1">
+
+    <ScrollPane fitToWidth="true" fitToHeight="true">
+        <VBox fx:id="messageContainer" spacing="5" styleClass="message-container"/>
+    </ScrollPane>
+
+    <TextField fx:id="inputField"/>
+    <Button fx:id="sendButton" text="Envoyer" onAction="#sendMessage"/>
+</VBox>
